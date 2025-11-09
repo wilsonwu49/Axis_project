@@ -43,7 +43,7 @@ void InitBNO055() {
     // Initialize I2C
     if (i2c.Init(i2c_conf) != I2CHandle::Result::OK) {
         // I2C initialization failed - handle error
-        while(1);
+        while(1) System::Delay(100);
     }
     
     // Initialize BNO055

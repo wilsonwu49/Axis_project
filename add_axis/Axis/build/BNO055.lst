@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccr0YtH6.s 			page 1
+ARM GAS  /tmp/ccpIXYMH.s 			page 1
 
 
    1              		.cpu cortex-m7
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccr0YtH6.s 			page 1
   32              		@ args = 0, pretend = 0, frame = 8
   33              		@ frame_needed = 0, uses_anonymous_args = 0
   25:BNO055.cpp    ****     uint8_t buffer[2] = {reg, value};
-ARM GAS  /tmp/ccr0YtH6.s 			page 2
+ARM GAS  /tmp/ccpIXYMH.s 			page 2
 
 
   34              		.loc 1 25 5 view .LVU1
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccr0YtH6.s 			page 1
   28:BNO055.cpp    **** 
   29:BNO055.cpp    **** void ReadBNO055Register(uint8_t reg, uint8_t arr[], uint8_t size) {
   85              		.loc 1 29 67 is_stmt 1 view -0
-ARM GAS  /tmp/ccr0YtH6.s 			page 3
+ARM GAS  /tmp/ccpIXYMH.s 			page 3
 
 
   86              		.cfi_startproc
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccr0YtH6.s 			page 1
  134              		.cfi_def_cfa_offset 20
  135              		@ sp needed
  136 0030 F0BD     		pop	{r4, r5, r6, r7, pc}
-ARM GAS  /tmp/ccr0YtH6.s 			page 4
+ARM GAS  /tmp/ccpIXYMH.s 			page 4
 
 
  137              	.LVL10:
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccr0YtH6.s 			page 1
   19:/home/nahomts/Desktop/DaisyExamples/libDaisy/src/per/i2c.h ****  *      I2CHandle i2c;
   20:/home/nahomts/Desktop/DaisyExamples/libDaisy/src/per/i2c.h ****  *      i2c.Init(i2c_conf);
   21:/home/nahomts/Desktop/DaisyExamples/libDaisy/src/per/i2c.h ****  *      // now i2c points to the corresponding peripheral and can be used.
-ARM GAS  /tmp/ccr0YtH6.s 			page 5
+ARM GAS  /tmp/ccpIXYMH.s 			page 5
 
 
   22:/home/nahomts/Desktop/DaisyExamples/libDaisy/src/per/i2c.h ****  *      i2c.TransmitBlocking( ... );
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccr0YtH6.s 			page 1
  204              		.loc 1 44 17 is_stmt 0 view .LVU40
  205 0016 03A9     		add	r1, sp, #12
   37:BNO055.cpp    ****     i2c_conf.mode   = I2CHandle::Config::Mode::I2C_MASTER;
-ARM GAS  /tmp/ccr0YtH6.s 			page 6
+ARM GAS  /tmp/ccpIXYMH.s 			page 6
 
 
  206              		.loc 1 37 21 view .LVU41
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccr0YtH6.s 			page 1
  244 0032 3D26     		movs	r6, #61
  245              	.LBE30:
  246              	.LBE32:
-ARM GAS  /tmp/ccr0YtH6.s 			page 7
+ARM GAS  /tmp/ccpIXYMH.s 			page 7
 
 
  247              		.loc 1 50 18 view .LVU60
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccr0YtH6.s 			page 1
  285 0056 3E23     		movs	r3, #62
   26:BNO055.cpp    **** }
  286              		.loc 1 26 25 view .LVU75
-ARM GAS  /tmp/ccr0YtH6.s 			page 8
+ARM GAS  /tmp/ccpIXYMH.s 			page 8
 
 
  287 0058 02AA     		add	r2, sp, #8
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccr0YtH6.s 			page 1
  325 0082 0D48     		ldr	r0, .L14+4
   25:BNO055.cpp    ****     i2c.TransmitBlocking(BNO055_ADDRESS, buffer, 2, 100);
  326              		.loc 1 25 36 view .LVU91
-ARM GAS  /tmp/ccr0YtH6.s 			page 9
+ARM GAS  /tmp/ccpIXYMH.s 			page 9
 
 
  327 0084 8DF80940 		strb	r4, [sp, #9]
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccr0YtH6.s 			page 1
  364              	.LBE39:
  365              	.LBE38:
   65:BNO055.cpp    ****     System::Delay(20);
-ARM GAS  /tmp/ccr0YtH6.s 			page 10
+ARM GAS  /tmp/ccpIXYMH.s 			page 10
 
 
  366              		.loc 1 65 5 is_stmt 1 view .LVU108
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccr0YtH6.s 			page 1
  413              	.LBB43:
   30:BNO055.cpp    ****     i2c.ReceiveBlocking(BNO055_ADDRESS, arr, size, 100);
  414              		.loc 1 30 25 view .LVU116
-ARM GAS  /tmp/ccr0YtH6.s 			page 11
+ARM GAS  /tmp/ccpIXYMH.s 			page 11
 
 
  415 0006 174D     		ldr	r5, .L18
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccr0YtH6.s 			page 1
   81:BNO055.cpp    ****     // Convert to degrees
   82:BNO055.cpp    ****     read.euler_heading = heading_raw / 16.0f;
  453              		.loc 1 82 5 view .LVU130
-ARM GAS  /tmp/ccr0YtH6.s 			page 12
+ARM GAS  /tmp/ccpIXYMH.s 			page 12
 
 
   83:BNO055.cpp    ****     read.euler_roll = roll_raw / 16.0f;
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccr0YtH6.s 			page 1
  500              		.fpu fpv5-d16
  502              	_GLOBAL__sub_I_i2c:
  503              	.LFB5247:
-ARM GAS  /tmp/ccr0YtH6.s 			page 13
+ARM GAS  /tmp/ccpIXYMH.s 			page 13
 
 
  504              		.loc 1 87 1 is_stmt 1 view -0
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccr0YtH6.s 			page 1
   71:/home/nahomts/Desktop/DaisyExamples/libDaisy/src/per/i2c.h ****     {
   72:/home/nahomts/Desktop/DaisyExamples/libDaisy/src/per/i2c.h ****         OK, /**< & */
   73:/home/nahomts/Desktop/DaisyExamples/libDaisy/src/per/i2c.h ****         ERR /**< & */
-ARM GAS  /tmp/ccr0YtH6.s 			page 14
+ARM GAS  /tmp/ccpIXYMH.s 			page 14
 
 
   74:/home/nahomts/Desktop/DaisyExamples/libDaisy/src/per/i2c.h ****     };
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccr0YtH6.s 			page 1
  564              		.file 5 "/home/nahomts/Developer/gcc-arm-none-eabi-10-2020-q4-major/arm-none-eabi/include/stdint.h
  565              		.file 6 "/home/nahomts/Developer/gcc-arm-none-eabi-10-2020-q4-major/lib/gcc/arm-none-eabi/10.2.1/i
  566              		.file 7 "/home/nahomts/Developer/gcc-arm-none-eabi-10-2020-q4-major/arm-none-eabi/include/c++/10.2
-ARM GAS  /tmp/ccr0YtH6.s 			page 15
+ARM GAS  /tmp/ccpIXYMH.s 			page 15
 
 
  567              		.file 8 "/home/nahomts/Developer/gcc-arm-none-eabi-10-2020-q4-major/arm-none-eabi/include/c++/10.2
@@ -881,30 +881,30 @@ ARM GAS  /tmp/ccr0YtH6.s 			page 1
  604              		.file 45 "BNO055.h"
  605              		.file 46 "/home/nahomts/Desktop/DaisyExamples/libDaisy/src/dev/sr_595.h"
  606              		.file 47 "<built-in>"
-ARM GAS  /tmp/ccr0YtH6.s 			page 16
+ARM GAS  /tmp/ccpIXYMH.s 			page 16
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 BNO055.cpp
-     /tmp/ccr0YtH6.s:17     .text._Z19WriteBNO055Registerhh:0000000000000000 $t
-     /tmp/ccr0YtH6.s:26     .text._Z19WriteBNO055Registerhh:0000000000000000 _Z19WriteBNO055Registerhh
-     /tmp/ccr0YtH6.s:69     .text._Z19WriteBNO055Registerhh:0000000000000020 $d
-     /tmp/ccr0YtH6.s:74     .text._Z18ReadBNO055RegisterhPhh:0000000000000000 $t
-     /tmp/ccr0YtH6.s:82     .text._Z18ReadBNO055RegisterhPhh:0000000000000000 _Z18ReadBNO055RegisterhPhh
-     /tmp/ccr0YtH6.s:142    .text._Z18ReadBNO055RegisterhPhh:0000000000000034 $d
-     /tmp/ccr0YtH6.s:147    .text._Z10InitBNO055v:0000000000000000 $t
-     /tmp/ccr0YtH6.s:155    .text._Z10InitBNO055v:0000000000000000 _Z10InitBNO055v
-     /tmp/ccr0YtH6.s:379    .text._Z10InitBNO055v:00000000000000b4 $d
-     /tmp/ccr0YtH6.s:385    .text._Z15ReadEulerAnglesv:0000000000000000 $t
-     /tmp/ccr0YtH6.s:393    .text._Z15ReadEulerAnglesv:0000000000000000 _Z15ReadEulerAnglesv
-     /tmp/ccr0YtH6.s:489    .text._Z15ReadEulerAnglesv:0000000000000064 $d
-     /tmp/ccr0YtH6.s:495    .text.startup._GLOBAL__sub_I_i2c:0000000000000000 $t
-     /tmp/ccr0YtH6.s:502    .text.startup._GLOBAL__sub_I_i2c:0000000000000000 _GLOBAL__sub_I_i2c
-     /tmp/ccr0YtH6.s:535    .text.startup._GLOBAL__sub_I_i2c:0000000000000008 $d
-     /tmp/ccr0YtH6.s:540    .init_array:0000000000000000 $d
-     /tmp/ccr0YtH6.s:558    .bss.i2c:0000000000000000 i2c
-     /tmp/ccr0YtH6.s:544    .rodata:0000000000000000 $d
-     /tmp/ccr0YtH6.s:554    .bss.i2c:0000000000000000 $d
+     /tmp/ccpIXYMH.s:17     .text._Z19WriteBNO055Registerhh:0000000000000000 $t
+     /tmp/ccpIXYMH.s:26     .text._Z19WriteBNO055Registerhh:0000000000000000 _Z19WriteBNO055Registerhh
+     /tmp/ccpIXYMH.s:69     .text._Z19WriteBNO055Registerhh:0000000000000020 $d
+     /tmp/ccpIXYMH.s:74     .text._Z18ReadBNO055RegisterhPhh:0000000000000000 $t
+     /tmp/ccpIXYMH.s:82     .text._Z18ReadBNO055RegisterhPhh:0000000000000000 _Z18ReadBNO055RegisterhPhh
+     /tmp/ccpIXYMH.s:142    .text._Z18ReadBNO055RegisterhPhh:0000000000000034 $d
+     /tmp/ccpIXYMH.s:147    .text._Z10InitBNO055v:0000000000000000 $t
+     /tmp/ccpIXYMH.s:155    .text._Z10InitBNO055v:0000000000000000 _Z10InitBNO055v
+     /tmp/ccpIXYMH.s:379    .text._Z10InitBNO055v:00000000000000b4 $d
+     /tmp/ccpIXYMH.s:385    .text._Z15ReadEulerAnglesv:0000000000000000 $t
+     /tmp/ccpIXYMH.s:393    .text._Z15ReadEulerAnglesv:0000000000000000 _Z15ReadEulerAnglesv
+     /tmp/ccpIXYMH.s:489    .text._Z15ReadEulerAnglesv:0000000000000064 $d
+     /tmp/ccpIXYMH.s:495    .text.startup._GLOBAL__sub_I_i2c:0000000000000000 $t
+     /tmp/ccpIXYMH.s:502    .text.startup._GLOBAL__sub_I_i2c:0000000000000000 _GLOBAL__sub_I_i2c
+     /tmp/ccpIXYMH.s:535    .text.startup._GLOBAL__sub_I_i2c:0000000000000008 $d
+     /tmp/ccpIXYMH.s:540    .init_array:0000000000000000 $d
+     /tmp/ccpIXYMH.s:558    .bss.i2c:0000000000000000 i2c
+     /tmp/ccpIXYMH.s:544    .rodata:0000000000000000 $d
+     /tmp/ccpIXYMH.s:554    .bss.i2c:0000000000000000 $d
 
 UNDEFINED SYMBOLS
 _ZN5daisy9I2CHandle16TransmitBlockingEtPhtm
